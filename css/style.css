@@ -1,0 +1,359 @@
+body{
+    font-family: sans-serif;
+}
+
+
+header{
+
+    /* border: 1px solid black; */
+}
+
+.h-c{
+    /* border: 1px solid black; */
+
+}
+
+.wraper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.manu{
+    width: 30%;
+    overflow: hidden;
+    margin: 1% 0 0 70%;
+}
+
+.manu ul{}
+
+.manu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 10%;
+}
+
+.manu ul li a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+/* manu part end  */
+
+/* INTRO PART START  */
+.intro{
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    
+}
+
+
+.pera{
+    width: 30%;
+    overflow: hidden;
+}
+
+.pera h1{
+    color: none ;
+    position: absolute;
+    margin: 19% 0% 0% 25%;
+    font-size: 100px;
+}
+
+.pera h2{
+    position: absolute;
+    margin: 25% 0% 0% 25%;
+    font-size: 80px;
+}
+
+.pera p{
+    position: absolute;
+    margin: 30% 0% 0% 25%;
+}
+
+.intro-img{
+    /* width: 50%; */
+    margin: 5%;
+    
+    
+}
+.intro-img img {
+    margin: -0% 00 00 45%;
+    /* width: 50%; */
+    height: 800px;
+}
+
+
+/* intro part end  */
+
+/* about part start */
+
+.about-wrap{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.aw-img{
+    
+}
+
+.aw-img img{
+    height: 600px;
+    
+}
+
+.about-text{
+    width: 30%;
+    /* margin: 5%; */
+    padding: 5%;
+    
+}
+
+.about-text h1{
+    font-size: 90px;
+    color: grey;
+    opacity: .2;
+    margin-bottom: 1%;
+    
+   
+}
+
+.about-text h2{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -3.5%;
+    margin-left: 2%;
+}
+
+.about-text p{
+    color: grey;
+}
+/* about part end  */
+/* skills part  */
+
+.skill{
+    display: flex;
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.brand{
+    width: 35%;
+    padding: 1%;
+    margin-left: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 10px #f7f5f5;
+
+    
+}
+.brand img{}
+
+.ps{  
+    margin-left: 1%;
+    padding: 1%;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 10px #f7f5f5;}
+
+.web{  
+
+
+    margin-left: 2%;
+    padding: 1%;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 10px #f7f5f5;}
+
+
+    /* skills part end  */
+
+
+    .demo{
+    width: 80%;
+    margin: 0 auto;
+   
+    padding: 2%;
+}
+
+.demo .demo-text h1{
+    margin: auto 10%;
+    font-size: 90px;
+    color: grey;
+    opacity: .1;
+}
+
+
+.demo .demo-text p{
+    position: absolute;
+    margin: -3.5% 10%;
+    font-size: 20px;
+}
+
+
+
+
+
+/* DEMO IMG  */
+.demo-wraper{
+    width: 90%;
+    margin: 00 auto;
+    overflow: hidden;
+    margin-top: 02%;
+
+}
+
+.demo-img {
+    width: 20%;
+    float: left;
+    margin: 2% 2% 5% 2%;
+    
+    
+}
+
+.demo-img img {
+    width: 100%;
+    
+}
+
+.demo-img  p{
+    margin: 5% 00 00 50%;
+    color: #292640;
+    
+    
+}
+
+/* skills part end  */
+
+/* team part start  */
+ .team{
+    width: 80%;
+    margin: 0 auto;
+   
+    padding: 2%;
+ }
+
+ .team-txt{}
+
+ .team-txt h2{
+    margin: auto 10%;
+    font-size: 100px;
+    color: grey;
+    opacity: .1;
+ }
+
+
+ .team-txt p {
+    position: absolute;
+    margin: -3.5% 9.5%;
+    font-size: 20px;
+}
+ 
+/* team main  */
+
+.img-txt{}
+
+.img-txt img{
+    width: 90%;
+    margin: 0 5%;
+    opacity: .7;
+}
+
+.main-txt{
+    position: absolute;
+    width: 60%;
+    margin: -25% 4.5%;
+    padding: 5%;
+    color: #f7f5f5;
+    border-radius: 30px;
+    
+
+}
+
+.main-txt h2{}
+
+.main-txt p{}
+
+.color{
+    position: absolute;
+    width: 60%;
+    height: 25%;
+    margin: -25% 4.5%;
+    padding: 5%;
+    background-color: #000000;
+    opacity: .3;
+    border-radius: 30px;
+}
+
+/* team part end  */
+
+/* contact part start  */
+.contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-txt{}
+
+.contact-txt h2{
+    margin: auto 10%;
+    font-size: 100px;
+    color: grey;
+    opacity: .1;
+}
+
+.contact-txt p{
+    position: absolute;
+    margin: -4% 14%;
+    font-size: 25px;
+}
+
+/* contact main  */
+
+.contact-wrap{
+    margin: 2%;
+    padding: 2%;
+}
+
+.c-form{
+    width: 40%;
+    
+    padding: 2%;
+}
+.c-form .msz{
+    height: 100px;
+}
+.c-form input {
+    margin: 2%;
+    height: 20px;
+    width: 80%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+
+.c-form button {
+    margin: 2% 10%;
+    width: 25%;
+    height: 20px;
+}
+
+.c-map{
+    position: absolute;
+    margin: -20% 60%;
+}
